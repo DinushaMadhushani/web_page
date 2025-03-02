@@ -33,7 +33,7 @@ body {
 }
 .flex-container-content{
     text-align: justify;
-    display: flex;
+   
     flex: 1;
 }
 
