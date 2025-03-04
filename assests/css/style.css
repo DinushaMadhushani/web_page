@@ -42,7 +42,7 @@ body{
     position: relative;
     height: 70vh;
     width: 30vw;
-    margin-left: 170px;
+    margin-left: 150px;
     
 }
 
@@ -83,6 +83,24 @@ h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
+
+/*mobile responsive*/
+@media(max-width:430px){
+    .flex-container-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img{
+        width:400px;
+        height:30vh;
+    }
+}
+
+
+
+    
+
+
 
 
 
